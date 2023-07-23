@@ -1,3 +1,5 @@
+package ViewModul;
+
 import java.util.Scanner;
 
 public class View {
@@ -8,7 +10,12 @@ public class View {
         return in.next();
     }
 
-    public int getNumber(String title) {
+    public double getNumber(String title) {
+        System.out.printf("%s", title);
+        return in.nextDouble();
+    }
+
+    public int getIntNumber(String title) {
         System.out.printf("%s", title);
         return in.nextInt();
     }
