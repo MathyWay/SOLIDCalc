@@ -31,8 +31,7 @@ public class Presenter {
             "4 - выход\n");
             switch (choice) {
                 case 1:
-                calculator.PushNumbers(view.getNumber("Введите ах: "), view.getNumber("Введите ay: "),
-                                    view.getNumber("Введите bх: "), view.getNumber("Введите ах: "));
+                calculator.PushNumbers(view.getInput());
                 logger.log(Level.INFO, "Pushed numbers:" + calculator.giveA().toString() +
                 " " + calculator.giveB().toString());
 
@@ -43,8 +42,7 @@ public class Presenter {
                 break;
 
                 case 2:
-                calculator.PushNumbers(view.getNumber("Введите ах: "), view.getNumber("Введите ay: "),
-                                    view.getNumber("Введите bх: "), view.getNumber("Введите ах: "));
+                calculator.PushNumbers(view.getInput());
                 logger.log(Level.INFO, "Pushed numbers:" + calculator.giveA().toString() +
                 " " + calculator.giveB().toString());
 
@@ -55,8 +53,7 @@ public class Presenter {
                 break;
 
                 case 3:
-                calculator.PushNumbers(view.getNumber("Введите ах: "), view.getNumber("Введите ay: "),
-                                    view.getNumber("Введите bх: "), view.getNumber("Введите ах: "));
+                calculator.PushNumbers(view.getInput());
                 logger.log(Level.INFO, "Pushed numbers:" + calculator.giveA().toString() +
                 " " + calculator.giveB().toString());
                 

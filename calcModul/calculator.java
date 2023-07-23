@@ -4,10 +4,10 @@ import mathModul.*;
 public class calculator extends calculationModel{
     
     @Override
-    public void PushNumbers(double ax, double ay, double bx, double by)
+    public void PushNumbers(double[] inp)
     {
-        this.a = new complNumber(ax, ay);
-        this.b = new complNumber(bx, by);
+        this.a = new complNumber(inp[0], inp[1]);
+        this.b = new complNumber(inp[2], inp[3]);
     }
 
     @Override
