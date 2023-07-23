@@ -45,7 +45,7 @@ public class Presenter {
                 calculator.PushNumbers(view.getInput());
                 logger.log(Level.INFO, "Pushed numbers:" + calculator.giveA().toString() +
                 " " + calculator.giveB().toString());
-
+                
                 view.print(calculator.Calculate(new GetMult()).toString());
 
                 logger.log(Level.INFO, "Calculated" + calculator.giveA().toString() +
