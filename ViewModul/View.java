@@ -15,6 +15,12 @@ public class View {
         return in.nextDouble();
     }
 
+    public double[] getInput(){
+        double[] inp = {this.getNumber("Введите ах: "), this.getNumber("Введите ay: "),
+        this.getNumber("Введите bх: "), this.getNumber("Введите ах: ")};
+        return inp;
+    }
+
     public int getIntNumber(String title) {
         System.out.printf("%s", title);
         return in.nextInt();
