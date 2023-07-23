@@ -10,6 +10,6 @@ public class Program {
         LoggerClass MyLogger = new LoggerClass();
         Presenter p = new Presenter(new calculator(), new View(), MyLogger.logger);
         p.buttonClick();
-        
+
     }
 }
